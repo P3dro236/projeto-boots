@@ -77,6 +77,13 @@ button.bg-purple.active{
 #section4 form button{
   height: 52px;
 }
+#section4 button:hover{
+  background-color: #212124;
+  color: #fff;
+}
+i{
+  cursor: pointer;
+}
 
 
 
