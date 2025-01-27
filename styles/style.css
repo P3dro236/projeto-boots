@@ -1,0 +1,111 @@
+.bg-grey{
+  background-color: #ccc;
+}
+.bg-s-grey{
+  background-color: #1A1A1D;
+}
+.bg-purple{
+  background-color: #2F3645;
+}
+.bg-beige{
+  background-color: #EEEDEB;
+}
+.bg-wood{
+  background-color: #939185;
+}
+.roboto{
+  font-family: "Roboto", sans-serif;
+}
+.oswald{
+  font-family: "Oswald", sans-serif;
+}
+.f-s-grey{
+  color: #1A1A1D;
+}
+.f-grey{
+  color: #ccc;
+}
+.link-hover:hover{
+  color: #fff;
+}
+.hover-border{
+  transition: ease .3s;
+  border-top: 2px solid transparent;
+}
+.hover-border:hover{
+  transition: ease .3s;
+  border-top: 2px solid #6A1E55;
+}
+.nav-link:focus{
+  color: #fff;
+}
+.w-80{
+  width: 80%;
+  transition: all .3s;
+}
+.card-footer a.w-80:hover{
+  width: 100%;
+  transition: all .3s;
+}
+.br-t-r{
+  border-radius: 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.br-b-r{
+  border-radius: 0;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+button.bg-purple{
+  z-index: 1;
+  height: 72px;
+  color: #ccc;
+}
+button.bg-purple:hover{
+  background-color: #2F3645;
+  color: #fff;
+}
+button.bg-purple.active{
+  background-color: #1A1A1D;
+  color: #fff;
+}
+#section4 textarea{
+  resize: none;
+  height: 25vh;
+}
+#section4 form button{
+  height: 52px;
+}
+
+
+
+
+
+
+@media (min-width: 767px) {
+  nav{
+    justify-content: flex-end;
+  }
+
+}
+
+
+@media (max-width: 767px) {
+  nav{
+    justify-content: center;
+  }
+  #section3 img{
+    margin-top: -45px;
+  }
+  #contato{
+    margin-bottom: 45px;
+  }
+  #redes{
+    background-color: #1A1A1D;
+    border: none;
+  }
+  #redes i{
+    color: #fff;
+  }
+}
